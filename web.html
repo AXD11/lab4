@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+        <style>
+            table,tr,th,td{
+                background-color: yellow;
+                text-align: center;
+                border:1px solid black;
+                border-color: black;
+            }
+            th{
+                background-color: rgb(0, 213, 255);
+                color: white;
+            }
+            td{
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <table id = "Width" style="width: 400px;">
+            <tr>
+                <th>Math</td>
+                <th>English</td>
+                <th>Programming</td>
+            </tr>
+            <tr>
+                <td>90</td>
+                <td>60</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>80</td>
+                <td>86</td>
+                <td>98</td>
+            </tr>
+        </table>
+        <p>Change The Table Width</p>
+        <button type="button"onclick="_200px()">200px</button>
+        <button type="button"onclick="_500px()">500px</button>
+
+        <p>Change The Border and the Spacing Width</p>
+        <button type="button"onclick="b_1px()">1px</button>
+        <button type="button"onclick="b_10px()">10px</button>
+        <button type="button"onclick="b_20px()">20px</button>
+
+        <p>Change The Table Color</p>
+        <button type="button" onclick="_cc('red') " style="background-color:red;width:70px;height:40px;"></button>
+        <button type="button" onclick="_cc('blue') " style="background-color:blue;width:70px;height:40px;"></button>
+        <button type="button" onclick="_cc('green') " style="background-color:green;width:70px;height:40px;"></button>
+        <button type="button" onclick="_cc('yellow') " style="background-color:yellow;width:70px;height:40px;"></button>
+        <br>
+        <button type="button"onclick="reset()">reset</button>
+    </body>
+</html> 
